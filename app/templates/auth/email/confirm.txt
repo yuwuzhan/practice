@@ -1,0 +1,13 @@
+亲爱的 {{ user.username }} 先生,
+
+欢迎来到 Flasky!
+
+为了确认您的请求请点击下方链接:
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+谢谢！
+
+余武展
+
+本人不监控对此电子邮件地址的回复。
