@@ -105,3 +105,22 @@ div.flask-pagedown-preview h3 {
 .table.followers tr {
     border-bottom: 1px solid #e0e0e0;
 }
+.aoye{
+    font-family: 'Amatic SC',cursive;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #aaa
+}
+.aoye2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    color: #a0a0a0;
+}
+.aoye3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: #a0a0a0;}
+.aoye4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #a0a0a0;}

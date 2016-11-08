@@ -3,7 +3,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to grass'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'qq81327148'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = '15157548008@163.com'
@@ -12,7 +12,7 @@ class Config:
     MAIL_PORT = 25
     MAIL_USE_TLS = True
     MAIL_USERNAME = '15157548008@163.com'
-    MAIL_PASSWORD = 'hard to grass'
+    MAIL_PASSWORD = 'qq81327148'
     FLASKY_POSTS_PER_PAGE = 10
     FLASKY_FOLLOWERS_PER_PAGE = 50
     FLASKY_COMMENTS_PER_PAGE = 10

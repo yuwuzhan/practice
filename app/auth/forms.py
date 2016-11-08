@@ -6,11 +6,11 @@ from ..models import User
 
 
 class LoginForm(FlaskForm):
-    email = StringField('邮箱', validators=[DataRequired(), Length(1, 64),
+    email = StringField('email', validators=[DataRequired(), Length(1, 64),
                                           Email()])
-    password = PasswordField('密码', validators=[DataRequired()])
-    remember_me = BooleanField('记住登陆状态')
-    submit = SubmitField('登陆')
+    password = PasswordField('password', validators=[DataRequired()])
+    remember_me = BooleanField('remember')
+    submit = SubmitField('login')
 
 
 class RegistrationFrom(FlaskForm):
